@@ -17,11 +17,21 @@
       margin: 0;
       overflow: hidden;
     }
+    #unity-canvas {
+        width: 80vw;
+        height: 60vh;
+        max-width: 1024px;
+        max-height: 768px;
+      }
+      #unity-build-title {
+        color: white;
+      }
     </style>
   <body>
     
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1024 height=768 tabindex="-1"></canvas>
+      
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
